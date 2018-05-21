@@ -14,7 +14,7 @@ Meteor.settings.public = {
   "beneficiary": "dpornclassic",
   "dmca": true,
   "pageTitleSeparator": "-",
-  "appName": "DTube",
+  "appName": "DPornClassic",
   "ipfs": "",
   "lang": {
     "bn": {"name": "বাংলা", "path": "bn/bn-BD.json"},
