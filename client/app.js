@@ -45,8 +45,8 @@ Meteor.startup(function(){
 
   // init steem connect
   var sc2 = sc2sdk.Initialize({
-    app: 'dtube.app',
-    callbackURL: 'https://d.tube/#!/sc2login',
+    app: 'steemporn.app',
+    callbackURL: 'https://beta2.dpornclassic.co',
     accessToken: 'access_token'
   });
   window.sc2 = sc2
