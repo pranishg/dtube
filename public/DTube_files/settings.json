@@ -3,10 +3,7 @@
       "dfees": 2500,
       "loadLimit": 12,
       "displayNodes": [
-        "https://snap1.d.tube",
-        "https://ipfs.io",
-        // "https://ipfs.infura.io",
-        // "http://127.0.0.1:8080"
+     "http://127.0.0.1:8080"
       ],
       "snapMaxFileSizeKB": 1024,
       "upldr": ["upldr1", "upldr3", "upldr5", "upldrg1", "upldrg5", "cluster"]
