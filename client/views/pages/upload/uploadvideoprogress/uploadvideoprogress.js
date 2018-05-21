@@ -9,7 +9,7 @@ Template.uploadvideoprogress.rendered = function() {
 }
 Template.uploadvideoprogress.update = function() {
   var token = Session.get('uploadToken')
-  var url = 'https://'+Session.get('upldr')+'.d.tube/getProgressByToken/'+token
+  var url = 'https://'+Session.get('upldr')+'.dpornclassic.co/getProgressByToken/'+token
   var credentials = Session.get('upldr') == 'cluster' ? true : false
   $.ajax({
     cache: false,
