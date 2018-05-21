@@ -10,8 +10,8 @@ Meteor.settings.public = {
     "snapMaxFileSizeKB": 1024,
     "upldr": ["upldr1", "upldr3", "upldr5", "upldrg1", "upldrg5", "cluster"]
   },
-  "app": "dtube/0.7",
-  "beneficiary": "dtube",
+  "app": "dpornclassic/0.1",
+  "beneficiary": "dpornclassic",
   "dmca": true,
   "pageTitleSeparator": "-",
   "appName": "DTube",
