@@ -104,7 +104,7 @@ Template.upload.genBody = function (author, permlink, title, snaphash, videohash
   body += '<img src=\'https://ipfs.io/ipfs/' + Session.get('overlayHash') + '\'></a></center><hr>\n\n'
   body += description
   body += '\n\n<hr>'
-  body += '<a href=\'https://dpornclassic.co/#!/v/' + author + '/' + permlink + '\'> ▶️ DTube</a><br />'
+  body += '<a href=\'https://dpornclassic.co/#!/v/' + author + '/' + permlink + '\'> ▶️ Dpornclassic</a><br />'
   body += '<a href=\'https://ipfs.io/ipfs/' + videohash + '\'> ▶️ IPFS</a>'
   return body
 }
@@ -163,7 +163,7 @@ Template.upload.uploadImage = function (file, progressid, cb) {
   $('#uploadSnap > i').removeClass('cloud upload red')
   $('#uploadSnap > i').addClass('asterisk loading')
   $('#uploadSnap > i').css('background', 'transparent')
-  var postUrl = 'https://snap1.d.tube/uploadImage'
+  var postUrl = 'https://Ddpornclassic.co/uploadImage'
   var formData = new FormData();
   formData.append('files', file);
   $(progressid).progress({ value: 0, total: 1 })
@@ -193,7 +193,7 @@ Template.upload.uploadImage = function (file, progressid, cb) {
       $(progressid).hide()
 
       refreshUploadSnapStatus = setInterval(function () {
-        var url = 'https://snap1.d.tube/getProgressByToken/' + result.token
+        var url = 'https://dpornclassic.co/getProgressByToken/' + result.token
         $.getJSON(url, function (data) {
           var isCompleteUpload = true
           if (data.ipfsAddSource.progress !== "100.00%") {
