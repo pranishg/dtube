@@ -206,7 +206,7 @@ Template.video.seekTo = function (seconds) {
 Template.video.loadState = function () {
   if (isLoadingState) return
   isLoadingState = true
-  steem.api.getState('/dtube/@' + FlowRouter.getParam("author") + '/' + FlowRouter.getParam("permlink"), function (err, result) {
+  steem.api.getState('/dpornclassic/@' + FlowRouter.getParam("author") + '/' + FlowRouter.getParam("permlink"), function (err, result) {
     if (err) throw err;
     console.log('Loaded video from chain', result)
     isLoadingState = false
