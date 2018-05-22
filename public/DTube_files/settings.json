@@ -8,10 +8,10 @@
       "snapMaxFileSizeKB": 1024,
       "upldr": ["upldr1", "upldr3", "upldr5", "upldrg1", "upldrg5", "cluster"]
     },
-    "app": "dtube/0.7",
-    "beneficiary": "dtube",
+    "app": "dpornclassic",
+    "beneficiary": "dpornclassic",
     "pageTitleSeparator": "-",
-    "appName": "DTube",
+    "appName": "Dpornclassic",
     "ipfs": "",
     "lang": {
       "bn": {"name": "বাংলা", "path": "bn/bn-BD.json"},
